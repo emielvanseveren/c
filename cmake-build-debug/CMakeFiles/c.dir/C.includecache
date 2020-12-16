@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/emiel/school/c/reeks1/01.c
+/home/emiel/school/c/reeks1/06.c
 stdio.h
+-
+time.h
 -
 
