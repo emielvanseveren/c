@@ -1,7 +1,7 @@
 /*
- * Gegeven de opgave schrijf alle machten van 2 (beginnend bij 2^0=1), kleiner dan 10.000 uit.
- * De onderstaande code geeft niet de gevraagde uitvoer - hoe kan je dit heel snel detecteren?
- * Pas de code ook aan zodat je de gevraagde uitvoer bekomt.
+    Gegeven de opgave schrijf alle machten van 2 (beginnend bij 2^0=1), kleiner dan 10.000 uit.
+    De onderstaande code geeft niet de gevraagde uitvoer - hoe kan je dit heel snel detecteren?
+    Pas de code ook aan zodat je de gevraagde uitvoer bekomt.
 */
 
 #include <stdio.h>

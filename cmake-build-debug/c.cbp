@@ -76,10 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/emiel/school/c/reeks1/06.c">
-			<Option target="c"/>
-		</Unit>
-		<Unit filename="/home/emiel/school/c/reeks1/11.c">
+		<Unit filename="/home/emiel/school/c/reeks2/16.c">
 			<Option target="c"/>
 		</Unit>
 		<Unit filename="/home/emiel/school/c/CMakeLists.txt">

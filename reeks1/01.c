@@ -1,5 +1,5 @@
 /*
- Schrijf een programma dat volgende tekst op het scherm brengt (delay bij uitschrijven van de verschillende getallen is niet nodig).
+    Schrijf een programma dat volgende tekst op het scherm brengt (delay bij uitschrijven van de verschillende getallen is niet nodig).
 
     Hello world!
     10 9 8 7 6 5 4 3 2 1

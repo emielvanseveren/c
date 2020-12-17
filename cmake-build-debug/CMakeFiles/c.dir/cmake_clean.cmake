@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c.dir/reeks1/06.c.o"
-  "CMakeFiles/c.dir/reeks1/11.c.o"
+  "CMakeFiles/c.dir/reeks2/16.c.o"
   "c"
   "c.pdb"
 )

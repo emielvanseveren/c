@@ -143,59 +143,32 @@ c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/build
 .PHONY : c/fast
 
-reeks1/06.o: reeks1/06.c.o
+reeks2/16.o: reeks2/16.c.o
 
-.PHONY : reeks1/06.o
-
-# target to build an object file
-reeks1/06.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks1/06.c.o
-.PHONY : reeks1/06.c.o
-
-reeks1/06.i: reeks1/06.c.i
-
-.PHONY : reeks1/06.i
-
-# target to preprocess a source file
-reeks1/06.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks1/06.c.i
-.PHONY : reeks1/06.c.i
-
-reeks1/06.s: reeks1/06.c.s
-
-.PHONY : reeks1/06.s
-
-# target to generate assembly for a file
-reeks1/06.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks1/06.c.s
-.PHONY : reeks1/06.c.s
-
-reeks1/11.o: reeks1/11.c.o
-
-.PHONY : reeks1/11.o
+.PHONY : reeks2/16.o
 
 # target to build an object file
-reeks1/11.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks1/11.c.o
-.PHONY : reeks1/11.c.o
+reeks2/16.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks2/16.c.o
+.PHONY : reeks2/16.c.o
 
-reeks1/11.i: reeks1/11.c.i
+reeks2/16.i: reeks2/16.c.i
 
-.PHONY : reeks1/11.i
+.PHONY : reeks2/16.i
 
 # target to preprocess a source file
-reeks1/11.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks1/11.c.i
-.PHONY : reeks1/11.c.i
+reeks2/16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks2/16.c.i
+.PHONY : reeks2/16.c.i
 
-reeks1/11.s: reeks1/11.c.s
+reeks2/16.s: reeks2/16.c.s
 
-.PHONY : reeks1/11.s
+.PHONY : reeks2/16.s
 
 # target to generate assembly for a file
-reeks1/11.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks1/11.c.s
-.PHONY : reeks1/11.c.s
+reeks2/16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks2/16.c.s
+.PHONY : reeks2/16.c.s
 
 # Help Target
 help:
@@ -206,12 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c"
-	@echo "... reeks1/06.o"
-	@echo "... reeks1/06.i"
-	@echo "... reeks1/06.s"
-	@echo "... reeks1/11.o"
-	@echo "... reeks1/11.i"
-	@echo "... reeks1/11.s"
+	@echo "... reeks2/16.o"
+	@echo "... reeks2/16.i"
+	@echo "... reeks2/16.s"
 .PHONY : help
 
 

@@ -1,23 +1,38 @@
+
 /*
- * Om de grootste gemende deler (ggd) van twee getallen te berekenen, werd je allicht aangeleerd om de twee getallen
- * eerst te ontbinden in priemfactoren, om dan de gemeenschappelijke factoren te ontdekken. Het kan ook anders, met het
- * algoritme van Euclides dat gebruik maakt van volgende gelijkheid:
+    Herneem oefening 6, maar los dit nu op met twee functies:
 
- ggd(a , b) = ggd(b , a mod b);
+    De functie faculteit(x) berekent de faculteit van een gegeven geheel getal x.
+    De functie faculteit_rec(x) doet een recursieve berekening.
 
- De uitdrukking a mod b lees je als 'a modulo b' en stelt de rest van a bij deling door b voor. In de meeste
- programeertalen, ook in C (en Cpp), gebruik je de notatie % in plaats van mod.
+    Controleer in een eenvoudig hoofdprogramma.
+ */
 
- Het algoritme van Euclides vervangt de getallen a en b (herhaaldelijk) door de getallen b en a mod b. Indien a>b,
- zullen b en a mod b kleiner zijn dan a en b - en dus werd het probleem vereenvoudigd. Dit vervangen stopt van zodra een
- van de getallen 0 is: ggd(a,0) = a.
-
- Schrijf een recursieve functie ggd(a,b) die de grootste gemene deler van twee gehele getallen berekent.
-*/
 
 #include <stdio.h>
 
+unsigned long long int faculteit(int getal){
+    int i;
+    unsigned long long int fac = 1;
+    for(i=2; i<=getal;i++){
+        fac *= i;
+    }
+    return fac;
+}
+
+unsigned long long int faculteit_rec(unsigned long long int getal){
+    if(getal == 1) { return getal; }
+    return getal * faculteit(getal-1);
+}
 
 int main(){
+    printf("%i!: %llu\n", 5, faculteit(5));
+    printf("Recursief %i!: %llu\n", 5, faculteit_rec(5));
     return 0;
 }
+
+
+/* Opmerkingen
+ * Recursief kan trager zijn dan iteratie. Naast de inhoud van de functie, moet de recursie ook de stack pointer bijhouden
+ * van de functie. Dit betekent dat hij extra code moet runnen, en dus trager kan zijn.
+ */

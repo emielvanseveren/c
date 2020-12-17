@@ -1,6 +1,6 @@
 /*
- * Deze code levert, in tegenstelling tot vorige oefening, wél de gevraagde output.
- * Toch levert deze oplossing nog minder punten op dan de vorige oplossing. Waarom?
+    Deze code levert, in tegenstelling tot vorige oefening, wél de gevraagde output.
+    Toch levert deze oplossing nog minder punten op dan de vorige oplossing. Waarom?
 */
 
 #include <stdio.h>

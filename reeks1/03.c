@@ -1,6 +1,6 @@
 /*
- * Gegeven volgend programmafragment, als oplossing voor oefening 1. Dit levert de gevraagde output. Het levert echter
- * op een examen strafpunten op. Waarom?
+    Gegeven volgend programmafragment, als oplossing voor oefening 1. Dit levert de gevraagde output. Het levert echter
+    op een examen strafpunten op. Waarom?
 */
 
 int main(){
