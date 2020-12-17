@@ -79,6 +79,9 @@
 		<Unit filename="/home/emiel/school/c/reeks2/16.c">
 			<Option target="c"/>
 		</Unit>
+		<Unit filename="/home/emiel/school/c/reeks3/18.c">
+			<Option target="c"/>
+		</Unit>
 		<Unit filename="/home/emiel/school/c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

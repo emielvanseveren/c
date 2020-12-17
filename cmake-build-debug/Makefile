@@ -170,6 +170,33 @@ reeks2/16.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks2/16.c.s
 .PHONY : reeks2/16.c.s
 
+reeks3/18.o: reeks3/18.c.o
+
+.PHONY : reeks3/18.o
+
+# target to build an object file
+reeks3/18.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks3/18.c.o
+.PHONY : reeks3/18.c.o
+
+reeks3/18.i: reeks3/18.c.i
+
+.PHONY : reeks3/18.i
+
+# target to preprocess a source file
+reeks3/18.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks3/18.c.i
+.PHONY : reeks3/18.c.i
+
+reeks3/18.s: reeks3/18.c.s
+
+.PHONY : reeks3/18.s
+
+# target to generate assembly for a file
+reeks3/18.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/reeks3/18.c.s
+.PHONY : reeks3/18.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... reeks2/16.o"
 	@echo "... reeks2/16.i"
 	@echo "... reeks2/16.s"
+	@echo "... reeks3/18.o"
+	@echo "... reeks3/18.i"
+	@echo "... reeks3/18.s"
 .PHONY : help
 
 
