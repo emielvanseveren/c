@@ -1,8 +1,4 @@
-/*
-    Schrijf volgende functies en test ze uit in een eenvoudig hoofdprogramma:
-    De functie cijfersom(x) berekent van een gegeven geheel getal x de som van de cijfers. Zo is cijfersom(12345) gelijk aan 15.
-    Maak een recursieve versie cijfersom_rec(x) die hetzelfde doet als cijfersom(x).
-*/
+
 
 
 #include <stdio.h>

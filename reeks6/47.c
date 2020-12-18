@@ -1,8 +1,0 @@
-/*
-    Gegeven een positief geheel getal g (dus g >= 0). Schrijf een procedure wijzig_eerste_cijfer(g) die dit getal g
-    wijzigt, zodat bij de hexadecimale schrijfwijze van dit getal het eerste (= linkse, meest beduidende) cijfer omgezet
-    wordt naar F (Bijvoorbeeld: g = 53a9 wordt g = f3a9). Maak enkel gebruik van bitoperatoren,
-    GEEN wiskundige operatoren (zoals %, / , * en +) en GEEN expliciet genoteerde vergelijkingen
-    (dus geen operatoren ==, !=, >,...). Maak hierbij ook GEEN veronderstellingen omtrent het (maximale) aantal
-    (hexadecimale) cijfers van g.
-*/

@@ -1,13 +1,4 @@
 
-/*
-    Herneem oefening 6, maar los dit nu op met twee functies:
-
-    De functie faculteit(x) berekent de faculteit van een gegeven geheel getal x.
-    De functie faculteit_rec(x) doet een recursieve berekening.
-
-    Controleer in een eenvoudig hoofdprogramma.
- */
-
 
 #include <stdio.h>
 
@@ -30,9 +21,3 @@ int main(){
     printf("Recursief %i!: %llu\n", 5, faculteit_rec(5));
     return 0;
 }
-
-
-/* Opmerkingen
- * Recursief kan trager zijn dan iteratie. Naast de inhoud van de functie, moet de recursie ook de stack pointer bijhouden
- * van de functie. Dit betekent dat hij extra code moet runnen, en dus trager kan zijn.
- */

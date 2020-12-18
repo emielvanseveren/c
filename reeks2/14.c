@@ -1,12 +1,3 @@
-/*
-    Schrijf een procedure schuif_links(t,n) die alle elementen van een gegeven array t met n lettertekens, één plaats
-    naar links schuift. Het eerste karakter komt achteraan. Roep deze procedure drie keer aan op de array
-
-    char rij[] = {'s','a','p','a','p','p','e','l'};
-
-    Aangezien je de array verschillende keren moet uitschrijven, voorzie je hiervoor uiteraard een procedure.
-*/
-
 #include <stdio.h>
 
 void * schuif_links(char *t, size_t len){
@@ -37,11 +28,3 @@ int main(){
     }
     return 0;
 }
-
-
-/* Opmerkingen
- *
- * Aangezien het de pointer is hebben we rechtstreeks toegang tot de geheugenplaatsen van de velden en kunnen we deze aanpassen.
- * We gaan steeds het eerste element opzij zetten. En vervolgens alle elementen opschuiven. En vervolgens het eerste element achteraan plaatsen.
- * Aangezien we gewoon schuiven blijft de grootte gelijk.
-*/
