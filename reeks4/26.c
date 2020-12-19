@@ -1,9 +1,21 @@
-/*
-    Schrijf een procedure my_toupper(s) die het eerste karakter van de gegeven C-string s omzet naar een hoofdletter
-    (indien dit eerste karakter een kleine letter is), en de andere letters naar een kleine letter. Cijfertekens en
-    leestekens worden niet beïnvloed. Je mag er vanuit gaan dat het eerste karakter een letter is. Gebruik schuivende
-    pointers. Bekijk de video op Ufora.
+#include <stdio.h>
+my_toupper(char *);
 
-    Test uit met een hoofdprogramma waarin je het woord snEEuwwITJE<3!! laat omzetten naar Sneeuwwitje<3!!. Daarna test
-    je ook uit met een woord dat je inleest van het toetsenbord.
-*/
+int main(){
+    char s[] = "snEEuwwITJE<3!!";
+    my_toupper(s);
+    printf("%s", s);
+    return 0;
+}
+
+my_toupper(char *s){
+    if(*s >= 'a' && *s <= 'z'){
+        *s = *s-'a'+'A';
+    }
+    s++;
+
+    while(*s != '\0'){
+        if (*s >='A' && *s <= 'Z'){ *s = (*s)-'A'+ 'a';}
+        s++;
+    }
+};
