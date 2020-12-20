@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/emiel/school/c/reeks4/26.c" "/home/emiel/school/c/cmake-build-debug/CMakeFiles/c.dir/reeks4/26.c.o"
+  "/home/emiel/school/c/reeks4/29.c" "/home/emiel/school/c/cmake-build-debug/CMakeFiles/c.dir/reeks4/29.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
