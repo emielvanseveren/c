@@ -1,5 +1,5 @@
 #include <stdio.h>
-my_toupper(char *);
+void my_toupper(char *);
 
 int main(){
     char s[] = "snEEuwwITJE<3!!";
@@ -8,7 +8,7 @@ int main(){
     return 0;
 }
 
-my_toupper(char *s){
+void my_toupper(char *s){
     if(*s >= 'a' && *s <= 'z'){
         *s = *s-'a'+'A';
     }
