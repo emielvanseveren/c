@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/c.dir/reeks5/37.c.o  -o c  -lm 
+/usr/bin/cc -g   CMakeFiles/c.dir/reeks6/46.c.o  -o c  -lm 
