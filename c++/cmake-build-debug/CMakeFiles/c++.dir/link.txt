@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/c++.dir/main.cpp.o  -o c++ 
+/usr/bin/c++  -g   CMakeFiles/c++.dir/reeks4/breuk.cpp.o CMakeFiles/c++.dir/reeks4/20.cpp.o  -o c++ 

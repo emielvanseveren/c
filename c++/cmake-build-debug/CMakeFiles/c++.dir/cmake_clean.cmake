@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c++.dir/main.cpp.o"
+  "CMakeFiles/c++.dir/reeks4/20.cpp.o"
+  "CMakeFiles/c++.dir/reeks4/breuk.cpp.o"
   "c++"
   "c++.pdb"
 )
