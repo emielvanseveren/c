@@ -82,13 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/emiel/school/c/c++/reeks4/20.cpp">
-			<Option target="c++"/>
-		</Unit>
-		<Unit filename="/home/emiel/school/c/c++/reeks4/breuk.cpp">
-			<Option target="c++"/>
-		</Unit>
-		<Unit filename="/home/emiel/school/c/c++/reeks4/breuk.h">
+		<Unit filename="/home/emiel/school/c/c++/reeks4/21.cpp">
 			<Option target="c++"/>
 		</Unit>
 		<Unit filename="/home/emiel/school/c/c++/CMakeLists.txt">

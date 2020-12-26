@@ -6,27 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/emiel/school/c/c++/reeks4/20.cpp
+/home/emiel/school/c/c++/reeks4/21.cpp
 iostream
--
-fstream
--
-string
--
-sstream
--
-cmath
 -
 set
--
-breuk.h
-/home/emiel/school/c/c++/reeks4/breuk.h
-
-/home/emiel/school/c/c++/reeks4/breuk.cpp
-breuk.h
-/home/emiel/school/c/c++/reeks4/breuk.h
-
-/home/emiel/school/c/c++/reeks4/breuk.h
-iostream
 -
 
